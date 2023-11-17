@@ -1,0 +1,12 @@
+obj/*
+doc/*
+*.vim
+shaders/*\.spv
+main
+test
+lastsession.vim
+CMakeFiles/*
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json

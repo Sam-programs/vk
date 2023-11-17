@@ -1,0 +1,52 @@
+Language: Cpp
+IndentWidth: 3
+AccessModifierOffset: -2
+ColumnLimit: 80 
+
+AlignAfterOpenBracket: BlockIndent
+PointerAlignment: Right
+
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveMacros: AcrossComments
+BreakArrays: true
+
+AllowAllArgumentsOnNextLine: true
+
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortLoopsOnASingleLine: false
+
+AlwaysBreakAfterReturnType: None
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakBeforeMultilineStrings: true
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeTernaryOperators: true
+
+BinPackArguments: false
+
+IndentRequiresClause: true
+InsertTrailingCommas: Wrapped
+InsertBraces: true
+SpaceBeforeAssignmentOperators: true
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+    #functions get an extra {
+    AfterFunction: true
+
+
+IncludeBlocks: Merge
+
+IndentPPDirectives: AfterHash
+IndentGotoLabels: true
+IndentCaseLabels: true
+IndentCaseBlocks: true
+
+ReflowComments: false
+
+ShortNamespaceLines: 0
+FixNamespaceComments: true
+
+SortIncludes: Never
